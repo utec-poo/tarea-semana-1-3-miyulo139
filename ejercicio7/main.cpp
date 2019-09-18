@@ -3,11 +3,15 @@
 using namespace std;
 
 int main() {
+    enteros num=0;
+    do{
+        cout << "Introduzca número: ";
+        cin >>num;
+    }
+    while (num<10 or num>30);
 
-entero numero;
-cin >> numero;
+    for (int i=0; i<num; i++)
+        cout<<"*";
 
-// ToDO
-// implemente el algoritmo.
-  return 0;
+    return 0;
 }
