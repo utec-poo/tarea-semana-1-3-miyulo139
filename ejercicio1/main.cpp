@@ -9,6 +9,8 @@ cout << "\ningrese la base:";
 cin >> base;
 cout << "\ningrese la altura:";
 cin >> altura;
+cout << "El área es: "<< base*altura;
+
 
 
 // ToDO
