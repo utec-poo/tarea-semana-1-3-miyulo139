@@ -6,5 +6,5 @@
 #define PROYNAME_TIPOS_H
 
 typedef int enteros;
-typdef char caracter;
+typedef char caracter;
 #endif //PROYNAME_TIPOS_H
