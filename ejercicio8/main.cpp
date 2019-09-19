@@ -10,9 +10,9 @@ int main() {
     }
     while (num<1 or num>30);
 
-    for (int i=0; i<num; i++){
+    for (enteros i=0; i<num; i++){
         cout<<"*";
-        for (int j=1; j<num; j++){
+        for (enteros j=1; j<num; j++){
             if (i==j and i!=num-1)
                 cout<<" *";
             else if (i!=j and i!=num-1)
