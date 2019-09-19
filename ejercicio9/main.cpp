@@ -1,16 +1,15 @@
-#include <iostream>
-#include "tipos.h"
-#include "MyFunc.h"
-using namespace std;
+#include "Ufunciones.h"
+
 int main() {
-    l_enteros segundos;
-    enteros horas, min, seg;
+Ttiempo segundos, h,m,s;
 
-    do {
-        cout << "Segundos: ";
-        cin >> segundos;
-    } while (segundos <1);
+segundos = LeeDato();
+Convertir(segundos,h,m,s);
+cout << "\nEquivalen a: \n";
+cout << "Horas: "<<h<<"\n";
+cout << "Minutos: "<<m<<"\n";
+cout << "Segundos: "<<s;
 
-    // ToDO
+
     return 0;
 }
